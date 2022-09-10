@@ -76,26 +76,19 @@
       text-decoration: none;
     }
     </style>
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "dljrxr1qyf");
-</script>
   </head>
 <body>
   <nav>
     <div id="nav">
       <img style="width: 60px; position: absolute; top: 4px; left: 5px;" src="https://media.discordapp.net/attachments/871224768576229406/1017914355263737866/unknown.png">
         <ul id="navmenu">
-          <li id="creditsselection" onclick="credits()">Credits</li>
-         <li id="stateviewselection" onclick="stateview()">Stateview</li>
+          <li id="creditsselection" onclick="credits()" style="cursor: pointer;">Credits</li>
+         <li id="stateviewselection" onclick="stateview()" style="cursor: pointer;">Stateview</li>
         </ul>
     </div>
   </nav><br><br><br><br><br><br>
     <main>
-      <img id="logosvg" src="https://media.discordapp.net/attachments/871224768576229406/1017936867750055957/unknown.png">
+      <img onclick="svgcredits()" style="cursor: pointer;" id="logosvg" src="https://media.discordapp.net/attachments/871224768576229406/1017936867750055957/unknown.png">
         <h1 style="font-size: 4em;">xAbliv</h1>
           <p>HTML (Hypertext Markup Language) / CSS (Cascading Style Sheets) / SCSS (Syntactically Awesome Style Sheet) / JS (JavaScript) / PY (Python)</p><br>
             <div id="socials">
@@ -116,6 +109,9 @@ function credits(){
 }
 function stateview(){
   alert('Stateview Prison Roblox\nPiecrustmangucci\n\nPrison Commissioner\nIntelligence Agency\nLoA Department\nGame Administrator\nEvents Team\nSenior Moderator (Discord)')
+}
+function svgcredits(){
+  alert('©️ 2022, by the Author. All Rights Reserved. Licensed under https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode CC BY-NC-ND 4.0')
 }
 </script>
 </body>
